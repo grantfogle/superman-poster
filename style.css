@@ -1,0 +1,72 @@
+* {
+    color: yellow;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.poster {
+    height: 700px;
+    max-width: 400px;
+    margin: auto;
+    background-color: #2980b9;
+    padding-top: 10%;
+}
+
+.superman {
+    height: 50%;
+    width: 10px;
+    margin: auto;
+    /* background-color: red; */
+    background-image: linear-gradient(red, #2980b9);
+    transform: rotate(45deg);
+    
+}
+
+.text {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: .8em;
+    letter-spacing: .35em;
+    line-height: 10px;
+    margin-bottom: 7px;
+
+}
+
+p {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: .5em;
+}
+
+li {
+    width: 100%;
+    /* margin: 0 auto; */
+    list-style-type: none;
+}
+
+.border-line {
+    width: 25px;
+    height:1px;
+    background-color: yellow;
+}
+
+#tiny-text {
+    font-size: .25em;
+}
